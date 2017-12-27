@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5280C6691FF2D56800ADC31F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280C6681FF2D56800ADC31F /* AppDelegate.swift */; };
+		5280C66D1FF2D56800ADC31F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5280C66C1FF2D56800ADC31F /* Assets.xcassets */; };
+		5280C6701FF2D56800ADC31F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5280C66E1FF2D56800ADC31F /* Main.storyboard */; };
+		5280C6A31FF2D7CB00ADC31F /* MarkdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280C6A21FF2D7CB00ADC31F /* MarkdownViewController.swift */; };
+		5280C6A91FF2FCD700ADC31F /* HTMLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280C6A81FF2FCD700ADC31F /* HTMLViewController.swift */; };
+		5280C6AB1FF3024600ADC31F /* PreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280C6AA1FF3024600ADC31F /* PreviewController.swift */; };
+		5280C6FB1FF4008100ADC31F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 5280C6FA1FF4008100ADC31F /* Podfile */; };
+		5280C6FD1FF401FB00ADC31F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5280C6FC1FF401FB00ADC31F /* .gitignore */; };
+		934D4042BF86BB40FBF9C4AF /* Pods_MarkdownEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A262D022430E66DFF4B345E /* Pods_MarkdownEditor.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5280C6A11FF2D63400ADC31F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		120FCD3EE309E437999AC8BF /* Pods-MarkdownEditor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarkdownEditor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MarkdownEditor/Pods-MarkdownEditor.debug.xcconfig"; sourceTree = "<group>"; };
+		5280C6651FF2D56800ADC31F /* MarkdownEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarkdownEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5280C6681FF2D56800ADC31F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5280C66C1FF2D56800ADC31F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5280C66F1FF2D56800ADC31F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5280C6711FF2D56800ADC31F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5280C6721FF2D56800ADC31F /* MarkdownEditor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MarkdownEditor.entitlements; sourceTree = "<group>"; };
+		5280C6A21FF2D7CB00ADC31F /* MarkdownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownViewController.swift; sourceTree = "<group>"; };
+		5280C6A81FF2FCD700ADC31F /* HTMLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMLViewController.swift; sourceTree = "<group>"; };
+		5280C6AA1FF3024600ADC31F /* PreviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewController.swift; sourceTree = "<group>"; };
+		5280C6FA1FF4008100ADC31F /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		5280C6FC1FF401FB00ADC31F /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		6A262D022430E66DFF4B345E /* Pods_MarkdownEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarkdownEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9825B0DE8CC4058A217E830F /* Pods-MarkdownEditor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarkdownEditor.release.xcconfig"; path = "Pods/Target Support Files/Pods-MarkdownEditor/Pods-MarkdownEditor.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5280C6621FF2D56800ADC31F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934D4042BF86BB40FBF9C4AF /* Pods_MarkdownEditor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4412EB04F3FD2E969DA862F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A262D022430E66DFF4B345E /* Pods_MarkdownEditor.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5280C65C1FF2D56800ADC31F = {
+			isa = PBXGroup;
+			children = (
+				5280C6FA1FF4008100ADC31F /* Podfile */,
+				5280C6FC1FF401FB00ADC31F /* .gitignore */,
+				5280C6671FF2D56800ADC31F /* MarkdownEditor */,
+				5280C6661FF2D56800ADC31F /* Products */,
+				F9F75367A1AA23B1EAF6201E /* Pods */,
+				4412EB04F3FD2E969DA862F0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5280C6661FF2D56800ADC31F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5280C6651FF2D56800ADC31F /* MarkdownEditor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5280C6671FF2D56800ADC31F /* MarkdownEditor */ = {
+			isa = PBXGroup;
+			children = (
+				5280C6681FF2D56800ADC31F /* AppDelegate.swift */,
+				5280C66C1FF2D56800ADC31F /* Assets.xcassets */,
+				5280C66E1FF2D56800ADC31F /* Main.storyboard */,
+				5280C6A21FF2D7CB00ADC31F /* MarkdownViewController.swift */,
+				5280C6A81FF2FCD700ADC31F /* HTMLViewController.swift */,
+				5280C6AA1FF3024600ADC31F /* PreviewController.swift */,
+				5280C6711FF2D56800ADC31F /* Info.plist */,
+				5280C6721FF2D56800ADC31F /* MarkdownEditor.entitlements */,
+			);
+			path = MarkdownEditor;
+			sourceTree = "<group>";
+		};
+		F9F75367A1AA23B1EAF6201E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				120FCD3EE309E437999AC8BF /* Pods-MarkdownEditor.debug.xcconfig */,
+				9825B0DE8CC4058A217E830F /* Pods-MarkdownEditor.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5280C6641FF2D56800ADC31F /* MarkdownEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5280C68B1FF2D56800ADC31F /* Build configuration list for PBXNativeTarget "MarkdownEditor" */;
+			buildPhases = (
+				F91298F76AA48ADB65FFE216 /* [CP] Check Pods Manifest.lock */,
+				5280C6611FF2D56800ADC31F /* Sources */,
+				5280C6621FF2D56800ADC31F /* Frameworks */,
+				5280C6631FF2D56800ADC31F /* Resources */,
+				5280C6A11FF2D63400ADC31F /* Embed Frameworks */,
+				D8607AEC2F96D4D5D14D8A69 /* [CP] Embed Pods Frameworks */,
+				6D1D49252E64ABFDD68121FE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarkdownEditor;
+			productName = MarkdownEditor;
+			productReference = 5280C6651FF2D56800ADC31F /* MarkdownEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5280C65D1FF2D56800ADC31F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Todd Olsen";
+				TargetAttributes = {
+					5280C6641FF2D56800ADC31F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 5280C6601FF2D56800ADC31F /* Build configuration list for PBXProject "MarkdownEditor" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5280C65C1FF2D56800ADC31F;
+			productRefGroup = 5280C6661FF2D56800ADC31F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5280C6641FF2D56800ADC31F /* MarkdownEditor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5280C6631FF2D56800ADC31F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5280C6FD1FF401FB00ADC31F /* .gitignore in Resources */,
+				5280C6FB1FF4008100ADC31F /* Podfile in Resources */,
+				5280C66D1FF2D56800ADC31F /* Assets.xcassets in Resources */,
+				5280C6701FF2D56800ADC31F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D1D49252E64ABFDD68121FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MarkdownEditor/Pods-MarkdownEditor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8607AEC2F96D4D5D14D8A69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MarkdownEditor/Pods-MarkdownEditor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F91298F76AA48ADB65FFE216 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5280C6611FF2D56800ADC31F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5280C6AB1FF3024600ADC31F /* PreviewController.swift in Sources */,
+				5280C6A91FF2FCD700ADC31F /* HTMLViewController.swift in Sources */,
+				5280C6691FF2D56800ADC31F /* AppDelegate.swift in Sources */,
+				5280C6A31FF2D7CB00ADC31F /* MarkdownViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5280C66E1FF2D56800ADC31F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5280C66F1FF2D56800ADC31F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5280C6891FF2D56800ADC31F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5280C68A1FF2D56800ADC31F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		5280C68C1FF2D56800ADC31F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 120FCD3EE309E437999AC8BF /* Pods-MarkdownEditor.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 55SVD8WGE3;
+				INFOPLIST_FILE = MarkdownEditor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.proxpero.MarkdownEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		5280C68D1FF2D56800ADC31F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9825B0DE8CC4058A217E830F /* Pods-MarkdownEditor.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 55SVD8WGE3;
+				INFOPLIST_FILE = MarkdownEditor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.proxpero.MarkdownEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5280C6601FF2D56800ADC31F /* Build configuration list for PBXProject "MarkdownEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5280C6891FF2D56800ADC31F /* Debug */,
+				5280C68A1FF2D56800ADC31F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5280C68B1FF2D56800ADC31F /* Build configuration list for PBXNativeTarget "MarkdownEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5280C68C1FF2D56800ADC31F /* Debug */,
+				5280C68D1FF2D56800ADC31F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5280C65D1FF2D56800ADC31F /* Project object */;
+}

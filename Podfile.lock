@@ -1,0 +1,12 @@
+PODS:
+  - Down (0.4.2)
+
+DEPENDENCIES:
+  - Down
+
+SPEC CHECKSUMS:
+  Down: 92efba7c95a8efdb84b7114e365db4a37f3df76e
+
+PODFILE CHECKSUM: 71f95c518f6309e81da4c1be264c1ff6f0ac2dec
+
+COCOAPODS: 1.1.1
